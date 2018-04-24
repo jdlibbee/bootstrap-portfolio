@@ -3,29 +3,44 @@
 <head>
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <style>
+        body {
+            background: url(robots.png);
+        }
+        .col-md-10 {
+            background-color: white;
+            border: 2px solid black;
+        }
+        .col-md-6 {
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .headrow {
+            border-bottom: 2px solid grey;
+            margin: 0 auto;
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Justin Libbee</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link active" href="#">Contact</a>
-            </div>
-            </div>
-        </nav>
-    </div>     
+<body style="background-color:url(robots.png);">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Justin Libbee</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+             <a class="nav-item nav-link active" href="contact.html">Contact</a>
+        </div>
+         </div>
+    </nav>    
     <div class="container">
         <div class="row">
-            <div class="offset-md-2"></div>
-            <div class="col-md-8">
-                <div class="row">
-                    <h1>About Me</h1>
+            <div class="offset-md-1"></div>
+            <div class="col-md-10">
+                <div class="row headrow">
+                    <h1 style="padding: 20px;">About Me</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -38,14 +53,13 @@
                     </div>
                 </div>
             </div>
-            <div class="offset-md-2"></div>
+            <div class="offset-md-1"></div>
         </div>
     </div>
-    <nav class="navbar sticky-bottom navbar-dark bg-primary justify-content-center">
+    <nav class="navbar sticky-bottom navbar-dark bg-dark justify-content-center fixed-bottom">
         <span class="navbar-text">
-          <footer>&copy; Copyright 2018 Justin Libbee</footer>
+        <footer>&copy; Copyright 2018 Justin Libbee</footer>
         </span>
-    </nav>
-        
+    </nav>     
 </body>
 </html>
