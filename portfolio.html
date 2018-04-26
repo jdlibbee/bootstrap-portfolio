@@ -19,6 +19,42 @@
         .headrow {
             border-bottom: 2px solid grey;
         }
+        @media screen and (max-width:980px) {
+            .col-md-6 {
+                padding: 5px;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .card {
+                width: 100%;
+            }
+            .btn  {
+                width: 100%;
+            }
+            .col-md-6 {
+                padding: 0;
+            }
+            .text-center {
+                font-size: 10px;
+            }
+        }
+        @media screen and (max-width:640px) {
+            .card {
+               width: 100%;
+            }
+            .col-md-6 {
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+            .sticky-bottom {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            .col-md-10 {
+                margin-top: 10px;
+            }
+        }
     </style>
 </head>
 <body style="background-color:url(robots.png);">
@@ -44,19 +80,19 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-1 col-sm-3 col-md-6">
-                        <div class="card text-center" style="width: 18rem;">
+                        <div class="card text-center">
                             <img class="card-img-top img-fluid" src="Hangman.jpg" alt="hangman">
                             <div class="card-body">
                                 <a href="#" class="btn btn-primary">Hangman</a>
                             </div>
                         </div>
-                        <div class="card text-center" style="width: 18rem;">
+                        <div class="card text-center">
                             <img class="card-img-top img-fluid" src="Trivia.jpg" alt="Trivia">
                             <div class="card-body">
                                 <a href="#" class="btn btn-primary">Trivia</a>
                             </div>
                         </div>
-                        <div class="card text-center" style="width: 18rem;">
+                        <div class="card text-center">
                             <img class="card-img-top img-fluid" src="RPS.jpg" alt="RPS">
                             <div class="card-body">
                                 <a href="#" class="btn btn-primary">Rock Paper Scissors</a>
@@ -64,13 +100,13 @@
                         </div>
                     </div>
                     <div class="col-xs-1 col-sm-3 col-md-6">
-                        <div class="card text-center" style="width: 18rem;">
+                        <div class="card text-center">
                                 <img class="card-img-top img-fluid" src="RPG.jpg" alt="RPG">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary">RPG Game</a>
                                 </div>
                         </div>
-                        <div class="card text-center" style="width: 18rem;">
+                        <div class="card text-center">
                                 <img class="card-img-top img-fluid" src="widget.png" alt="Widget">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary">Rutgers Info Widget</a>
